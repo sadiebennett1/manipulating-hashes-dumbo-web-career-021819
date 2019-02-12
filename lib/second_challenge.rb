@@ -12,7 +12,7 @@ def second_challenge
     arr.collect do |word|
       word
     end
-  end 
+  end
   
 
 end
