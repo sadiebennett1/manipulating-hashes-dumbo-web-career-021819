@@ -7,7 +7,12 @@ def second_challenge
   }
 
   #code your solution here!
-  vals = groceries.values 
-
+  vals = groceries.values
+  vals.each do |arr|
+    arr.collect do |word|
+      word
+    end
+  end 
+  
 
 end
