@@ -8,11 +8,12 @@ def second_challenge
 
   #code your solution here!
   vals = groceries.values
+  new_arr = []
   vals.each do |arr|
-    arr.collect do |word|
-      word
+    arr.each do |word|
+      new_arr << word
     end
   end
-  
+  new_arr
 
 end
